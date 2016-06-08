@@ -1,5 +1,5 @@
 # About
-PC端公用UI弹窗组件alert, toast, confirm, checkbox, radio, showLoading, showLoading
+PC端公用弹窗UI组件alert, toast, confirm, checkbox, radio, showLoading
 
 ---
 
@@ -10,7 +10,7 @@ http://leochan2017.github.io/ywpc
 
 # USE
 1. 同时把 yw.css 和 yw.js 下载到你的项目中
-2. 在HTML引入`<script src="./yw.js"></script>`
+2. 在HTML引入yw.js
 
 ---
 
@@ -24,7 +24,7 @@ http://leochan2017.github.io/ywpc
 *Demo :*
 
 
-> ![alert DEMO](http://7xrn7f.com1.z0.glb.clouddn.com/16-6-8/1323893.jpg)
+> ![alert Demo](https://raw.githubusercontent.com/leochan2017/ywpc/master/images/demo/alert.png)
 
 
 ===
@@ -40,12 +40,12 @@ http://leochan2017.github.io/ywpc
 
 *False toast Demo :*
 
+> ![False toast Demo](https://raw.githubusercontent.com/leochan2017/ywpc/master/images/demo/toast-false.png)
 
-> ![False toast Demo](http://7xrn7f.com1.z0.glb.clouddn.com/16-6-8/66475832.jpg)
 
 *Success toast Demo :*
 
-> ![Success toast Demo](http://7xrn7f.com1.z0.glb.clouddn.com/16-6-8/59384873.jpg)
+> ![Success toast Demo](https://github.com/leochan2017/ywpc/blob/master/images/demo/toast-true.png?raw=true)
 
 ===
 
@@ -63,7 +63,7 @@ http://leochan2017.github.io/ywpc
 *Demo :*
 
 
-> ![confirm DEMO](http://7xrn7f.com1.z0.glb.clouddn.com/16-6-8/12485212.jpg)
+> ![confirm Demo](https://raw.githubusercontent.com/leochan2017/ywpc/master/images/demo/confirm.png)
 
 
 ===

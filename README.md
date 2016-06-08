@@ -3,6 +3,16 @@ PC端公用UI弹窗组件alert, toast, confirm, checkbox, radio, showLoading, sh
 
 ---
 
+# Home Page
+http://leochan2017.github.io/ywpc
+
+---
+
+# USE
+1. 同时把 yw.css 和 yw.js 下载到你的项目中
+2. 在HTML引入`<script src="./yw.js"></script>`
+
+---
 
 #API
 ### yw.alert(tit, str)
@@ -14,7 +24,7 @@ PC端公用UI弹窗组件alert, toast, confirm, checkbox, radio, showLoading, sh
 *Demo :*
 
 
-> ![DEMO](http://7xrn7f.com1.z0.glb.clouddn.com/16-6-8/1323893.jpg)
+> ![alert DEMO](http://7xrn7f.com1.z0.glb.clouddn.com/16-6-8/1323893.jpg)
 
 
 ===
@@ -53,7 +63,7 @@ PC端公用UI弹窗组件alert, toast, confirm, checkbox, radio, showLoading, sh
 *Demo :*
 
 
-> ![DEMO](http://7xrn7f.com1.z0.glb.clouddn.com/16-6-8/12485212.jpg)
+> ![confirm DEMO](http://7xrn7f.com1.z0.glb.clouddn.com/16-6-8/12485212.jpg)
 
 
 ===

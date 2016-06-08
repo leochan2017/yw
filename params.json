@@ -1,0 +1,6 @@
+{
+  "name": "Ywpc",
+  "tagline": "PC端公用UI弹窗组件alert, toast, confirm, checkbox, radio, showLoading, showLoading",
+  "body": "# About\r\nPC端公用UI弹窗组件alert, toast, confirm, checkbox, radio, showLoading, showLoading\r\n\r\n---\r\n\r\n\r\n#API\r\n### yw.alert(tit, str)\r\n\r\n* @param String  tit  要显示的标题\r\n\r\n* @param String  str  要显示的内容\r\n\r\n*Demo :*\r\n\r\n\r\n> ![DEMO](http://7xrn7f.com1.z0.glb.clouddn.com/16-6-8/1323893.jpg)\r\n\r\n\r\n===\r\n\r\n### yw.toast(str, icon, s)\r\n\r\n* @param String  str  要显示的内容\r\n\r\n* @param Boolean icon  默认False是红色的警告样式提示, 传入true是蓝色样式的成功提示\r\n\r\n* @param Number  s  显示的毫秒数,默认2000\r\n\r\n\r\n*False toast Demo :*\r\n\r\n\r\n> ![False toast Demo](http://7xrn7f.com1.z0.glb.clouddn.com/16-6-8/66475832.jpg)\r\n\r\n*Success toast Demo :*\r\n\r\n> ![Success toast Demo](http://7xrn7f.com1.z0.glb.clouddn.com/16-6-8/59384873.jpg)\r\n\r\n===\r\n\r\n### yw.confirm(tit, str, succ, fail)\r\n\r\n* @param String  tit  要显示的标题\r\n\r\n* @param String  str  要显示的内容\r\n\r\n* @param Function  succ  点确定后要执行的动作\r\n\r\n* @param Function  fail  点取消后要执行的动作\r\n\r\n\r\n*Demo :*\r\n\r\n\r\n> ![DEMO](http://7xrn7f.com1.z0.glb.clouddn.com/16-6-8/12485212.jpg)\r\n\r\n\r\n===\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

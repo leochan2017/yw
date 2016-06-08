@@ -1,24 +1,19 @@
 # About
----
 PC端公用弹窗UI组件alert, toast, confirm, checkbox, radio, showLoading
 
 
 
 # Home Page
----
 http://leochan2017.github.io/ywpc
 
 
 # Started
----
 1. 把 yw.css 和 yw.js 下载到你的项目中
 2. 在HTML引入yw.js
 
 
 #API
----
 ### yw.alert(tit, str)
-===
 ```
 @param String  tit  要显示的标题
 @param String  str  要显示的内容
@@ -31,7 +26,6 @@ http://leochan2017.github.io/ywpc
 
 
 ### yw.toast(str, icon, s)
-===
 ```
 @param String  str  要显示的内容
 @param Boolean icon  默认False是红色的警告样式提示, 传入true是蓝色样式的成功提示
@@ -50,7 +44,6 @@ http://leochan2017.github.io/ywpc
 
 
 ### yw.confirm(tit, str, succ, fail)
-===
 ```
 @param String  tit  要显示的标题
 @param String  str  要显示的内容

@@ -24,6 +24,7 @@ http://leochan2017.github.io/ywpc
 
 > ![alert Demo](https://raw.githubusercontent.com/leochan2017/ywpc/master/images/demo/alert.png)
 
+---
 
 ### yw.toast(str, icon, s)
 ```
@@ -41,7 +42,7 @@ http://leochan2017.github.io/ywpc
 
 > ![Success toast Demo](https://github.com/leochan2017/ywpc/blob/master/images/demo/toast-true.png?raw=true)
 
-
+---
 
 ### yw.confirm(tit, str, succ, fail)
 ```

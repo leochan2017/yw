@@ -1,0 +1,381 @@
+@charset "utf-8";
+html {
+    /*font-size: 20px;*/
+}
+
+body {
+    line-height: 1.6;
+    /*font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif;*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.yw_mask {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #888;
+    opacity: 0.5;
+}
+
+.yw_default {
+    position: fixed;
+    z-index: 10000;
+    width: 460px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    background-color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 1px solid #e6e9f2;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.yw_hd {
+    height: 40px;
+    line-height: 40px;
+    background-color: #f7f8fa;
+    border-bottom: 1px solid #e6e9f2;
+}
+
+.yw_tit {
+    float: left;
+    margin-left: 15px;
+}
+
+.yw_close {
+    float: right;
+    margin-right: 15px;
+    font-size: 28px;
+    color: #888;
+}
+
+.yw_close:hover {
+    color: #555;
+}
+
+.yw_bd {
+    font-size: 18px;
+    line-height: 42px;
+    padding: 30px 0;
+    border-bottom: 1px solid #e6e9f2;
+}
+
+.yw_checkbox_form {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.yw_radio_form {
+    font-size: 16px;
+    text-align: center;
+}
+
+.yw_checkbox_form input,
+.yw_radio_form input {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+}
+
+.yw_radio_form span {
+    margin-right: 50px;
+}
+
+.yw_radio_form span:last-child {
+    margin-right: 0;
+}
+
+.yw_ft {
+    height: 46px;
+    line-height: 46px;
+}
+
+.yw_btn {
+    color: #fff;
+    background-color: #4596cf;
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+
+.yw_btn_primary {
+    color: #222;
+    background-color: #fff;
+    padding: 4px 14px;
+    border: 1px solid #e6e9f2;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+
+.yw_toast_done {
+    line-height: 60px;
+    color: #eee;
+    background-color: #a60200;
+}
+
+.yw_toast_warn {
+    line-height: 60px;
+    color: #eee;
+    background-color: #4596cf;
+}
+
+.yw_toast_default {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    z-index: 10001;
+    text-align: center;
+    animation-name: fadeInTop 0.5s linear forwards;
+    -webkit-animation: fadeInTop 0.5s linear forwards;
+    -moz-animation: fadeInTop 0.5s linear forwards;
+    -o-animation: fadeInTop 0.5s linear forwards;
+    -ms-animation: fadeInTop 0.5s linear forwards;
+}
+
+
+/*toast入场动画函数fadeInTop*/
+
+@keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Safari and Chrome */
+
+@-webkit-keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Firefox */
+
+@-moz-keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Opera */
+
+@-o-keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.yw_loading .yw_mask {
+    background-color: #efeff4;
+}
+
+.ywork-warp {
+    z-index: 10000;
+    width: 10.2rem;
+    height: 2.7rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 0;
+    text-align: center;
+}
+
+.ywork-warp .ywork1 {
+    width: 0.7rem;
+    height: 1.05rem;
+}
+
+.ywork-warp .ywork2 {
+    width: 1.15rem;
+    height: 0.75rem;
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+    -moz-animation: -1.1s;
+    -o-animation: -1.1s;
+    -ms-animation: -1.1s;
+}
+
+.ywork-warp .ywork3 {
+    width: 0.75rem;
+    height: 0.75rem;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+    -moz-animation: -1.0s;
+    -o-animation: -1.0s;
+    -ms-animation: -1.0s;
+}
+
+.ywork-warp .ywork4 {
+    width: 0.5rem;
+    height: 0.75rem;
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+    -moz-animation: -0.9s;
+    -o-animation: -0.9s;
+    -ms-animation: -0.9s;
+}
+
+.ywork-warp .ywork5 {
+    width: 0.7rem;
+    height: 1.075rem;
+    padding-left: 0.1rem;
+    -webkit-animation-delay: -0.8s; //动画等待-0.8秒开始
+    animation-delay: -0.8s;
+    -moz-animation: -0.8s;
+    -o-animation: -0.8s;
+    -ms-animation: -0.8s;
+}
+
+.ywork-warp p {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #929292;
+    margin: 0;
+    line-height: 1.2rem;
+    padding-top: 0.4rem;
+}
+
+.ywork-warp img {
+    display: inline-block;
+    animation: ywork 1.2s infinite ease-in-out;
+    -webkit-animation: ywork 1.2s infinite ease-in-out;
+    -o-animation: ywork 1.2s infinite ease-in-out;
+    -ms-animation: ywork 1.2s infinite ease-in-out;
+    -moz-animation: ywork 1.2s infinite ease-in-out;
+}
+
+@keyframes ywork {
+    0%,
+    40%,
+    100% {
+        -webkit-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        -o-transform: scale(1.0);
+        -moz-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+    20% {
+        -webkit-transform: scaleY(2.0);
+        -o-transform: scaleY(2.0);
+        -ms-transform: scaleY(2.0);
+        -moz-transform: scaleY(2.0);
+        transform: scaleY(2.0);
+    }
+}
+
+@-webkit-keyframes ywork {
+    0%,
+    40%,
+    100% {
+        -webkit-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        -o-transform: scale(1.0);
+        -moz-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+    20% {
+        -webkit-transform: scaleY(2.0);
+        -o-transform: scaleY(2.0);
+        -ms-transform: scaleY(2.0);
+        -moz-transform: scaleY(2.0);
+        transform: scaleY(2.0);
+    }
+}
+
+@-moz-keyframes ywork {
+    0%,
+    40%,
+    100% {
+        -webkit-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        -o-transform: scale(1.0);
+        -moz-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+    20% {
+        -webkit-transform: scaleY(2.0);
+        -o-transform: scaleY(2.0);
+        -ms-transform: scaleY(2.0);
+        -moz-transform: scaleY(2.0);
+        transform: scaleY(2.0);
+    }
+}
+
+@-o-keyframes ywork {
+    0%,
+    40%,
+    100% {
+        -webkit-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        -o-transform: scale(1.0);
+        -moz-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+    20% {
+        -webkit-transform: scaleY(2.0);
+        -o-transform: scaleY(2.0);
+        -ms-transform: scaleY(2.0);
+        -moz-transform: scaleY(2.0);
+        transform: scaleY(2.0);
+    }
+}
+
+@-ms-keyframes ywork {
+    0%,
+    40%,
+    100% {
+        -webkit-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        -o-transform: scale(1.0);
+        -moz-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+    20% {
+        -webkit-transform: scaleY(2.0);
+        -o-transform: scaleY(2.0);
+        -ms-transform: scaleY(2.0);
+        -moz-transform: scaleY(2.0);
+        transform: scaleY(2.0);
+    }
+}

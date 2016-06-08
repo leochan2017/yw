@@ -235,7 +235,7 @@
         if (document.getElementById('showLoadingdiv') == undefined) {
             var str = str || '数据加载中',
                 div = document.createElement("div"),
-                htmls = '<div class="yw_loading"><div class="yw_mask"></div><div class="ywork-warp"><img src="/yw/static/ywpc-jsapi/images/y.png" class="ywork1" /><img src="/yw/static/ywpc-jsapi/images/w.png" class="ywork2" /><img src="/yw/static/ywpc-jsapi/images/o.png" class="ywork3" /><img src="/yw/static/ywpc-jsapi/images/r.png" class="ywork4" /><img src="/yw/static/ywpc-jsapi/images/k.png" class="ywork5" /><p>' + str + '</p></div></div>';
+                htmls = '<div class="yw_loading"><div class="yw_mask"></div><div class="ywork-warp"><img src="./images/y.png" class="ywork1" /><img src="./images/w.png" class="ywork2" /><img src="./images/o.png" class="ywork3" /><img src="./images/r.png" class="ywork4" /><img src="./images/k.png" class="ywork5" /><p>' + str + '</p></div></div>';
 
             div.innerHTML = htmls;
 

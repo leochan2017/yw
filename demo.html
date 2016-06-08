@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <style>
+    .btn button {
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="div"></div>
+    <div class="btn">
+        <button id="alert">Alert</button>
+        <br>
+        <button id="confirm">Confirm</button>
+        <br>
+        <button id="checkbox">Checkbox</button>
+        <br>
+        <button id="radio">Radio</button>
+        <br>
+        <button id="toast">Toast</button>
+        <br>
+        <button id="loading">Loading</button>
+        <br>
+    </div>
+    <script src="./yw.js"></script>
+    <script>
+    document.getElementById('alert').onclick = function() {
+        yw.alert();
+    };
+    document.getElementById('confirm').onclick = function() {
+        yw.confirm();
+    };
+    document.getElementById('checkbox').onclick = function() {
+        yw.checkbox('提示', ['choose', 'nan', 'nv', 'yao']);
+    };
+    document.getElementById('radio').onclick = function() {
+        yw.radio('提示', ['男', '女']);
+    };
+    document.getElementById('toast').onclick = function() {
+        yw.toast();
+    };
+    document.getElementById('loading').onclick = function() {
+        yw.showLoading();
+    };
+    </script>
+</body>
+
+</html>
